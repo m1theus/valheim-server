@@ -14,4 +14,3 @@ zip a "$BACKUP_NAME".zip *
 git add .
 git commit -m "BACKUP: $BACKUP_NAME"
 git push
-rm -r "$BACKUP_NAME".zip
